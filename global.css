@@ -1,4 +1,54 @@
-h1 {
-    color:blue;
-    font-size: 23px; 
+body {
+    margin: 0;
+    border: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.padre {
+    background-color:blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    flex-direction: column-reverse;
+    width: 250px;
+    height: 250px;
+}
+
+.hijo1 {
+    background-color:red;
+    color:aliceblue;
+    height: 90px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hijo2 {
+    background-color: yellow;
+    color:aliceblue;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hijo3 {
+    background-color: green;
+    color:aliceblue;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    font-size: 24px;
+    font-weight: bold;
 }
